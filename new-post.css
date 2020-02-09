@@ -1,0 +1,25 @@
+.form-container {
+    width: 650px;
+}
+
+form > * {
+    display: block;
+    margin-top: 16px;
+    font-size: 18px;
+}
+
+#form-post-title {
+    width: 300px;
+}
+
+
+#form-post-content {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 300px;
+}
+
+
+
+

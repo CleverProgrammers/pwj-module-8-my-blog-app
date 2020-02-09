@@ -1,0 +1,21 @@
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.header-container {
+    flex-basis: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog-posts {
+    display: flex;
+    justify-content: center;
+}
+
+.blog-posts-container {
+    flex-basis: 600px;
+}
+

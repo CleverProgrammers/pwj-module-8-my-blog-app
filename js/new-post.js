@@ -13,6 +13,6 @@ const submitNewPost = () => {
         method: 'POST',
         body: data
     }).then(()=>{
-        console.log("all is good");
+        window.location.href = "index.html";
     })
 }

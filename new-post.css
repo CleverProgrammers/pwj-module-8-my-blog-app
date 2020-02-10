@@ -8,6 +8,15 @@ form > * {
     font-size: 18px;
 }
 
+.navigation a {
+    text-decoration: none;
+    color: #333;
+    padding: .375rem .75rem;
+    color: #004186;
+    border: 1px solid #004186;
+    border-radius: 5px;
+}
+
 #form-post-title {
     width: 300px;
 }
@@ -28,12 +37,17 @@ form > * {
 }
 
 #form-post-submit {
-    background-color: #007bff;
-    border-color: #007bff;
+    background-color: #004186;
+    border-color: #004186;
     color: white;
     padding: .375rem .75rem;
     border-radius: 3px;
     cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+#form-post-submit:hover {
+    background-color: #002349;
 }
 
 

@@ -5,7 +5,7 @@ body {
 
 header {
     min-height: 350px;
-    background-image: url(https://images.unsplash.com/photo-1448932223592-d1fc686e76ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2549&q=80);
+    background-image: url(assets/banner.jpeg);
     background-size: cover;
     background-position: center;
     color: white;
@@ -15,7 +15,7 @@ header {
     overflow: hidden;
 }
 
-header a {
+.add-post a {
     color: white;
     text-decoration: none;
 }
@@ -31,13 +31,19 @@ header::before {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .nav-button.new-post {
-    border: 1px solid white;
-    width: 30px;
-    height: 30px;
+    position: fixed;
+    font-size: 24px;
+    z-index: 10;
+    bottom: 30px;
+    right: 30px;
+    background-color: #004186;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+    width: 50px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,18 +52,31 @@ header::before {
 }
 
 .nav-button.new-post:hover {
-    background-color: white;
-    color: #333;
-
+    background-color: #002349;
 }
 
 .header-container {
     max-width: 700px;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     z-index: 1;
+}
+
+.header-blog-text {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    background-image: url(assets/profile.png);
+    background-size: cover;
 }
 
 .main {
@@ -73,15 +92,14 @@ header::before {
 
 .subtext {
     margin-top: 8px;
+    text-align: center;
 }
 
-.blog-posts {
+.main {
     display: flex;
-    justify-content: center;
-    margin-top: 32px;
 }
 
-.blog-posts-container {
+.main-container {
     width: 100%;
     max-width: 750px;
     min-width: 600px;
@@ -95,7 +113,7 @@ header::before {
     border-radius: 8px;
     margin-top: 16px;
     overflow: hidden;
-    height: 200px;
+    min-height: 200px;
 }
 
 .post-image {
@@ -130,7 +148,6 @@ header::before {
 
 .post-text {
     overflow: hidden;
-    max-height: 65px;
 }
 
 .post-text p {

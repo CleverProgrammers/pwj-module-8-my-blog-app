@@ -37,5 +37,5 @@ const buildPosts = (blogPosts) => {
         </div>
         `
     }
-    document.querySelector(".blog-posts-container").innerHTML = blogPostsContent;
+    document.querySelector(".blog-posts").innerHTML = blogPostsContent;
 }

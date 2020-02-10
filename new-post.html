@@ -6,7 +6,7 @@
         <title>New Post</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style2.css">
+        <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="new-post.css">
     </head>
     <body>
@@ -19,17 +19,23 @@
                             Let's add a new blog post!
                         </div>
                     </div>
-                    <div class="nav-button">
-                        Back
-                    </div>
+                    <a href="index.html">
+                        <div class="nav-button">
+                            Back
+                        </div>
+                    </a>
                 </div>
             </header>
             <div class="main">
                 <div class="form-container">
-                    <form>
+                    <form id="new-post">
                         <input id="form-post-title" type="text" name="post-title" placeholder="Post Title"/>
-                        <textarea id="form-post-content" name="post-content" placeholder="Post Content" ></textarea>
-                        <button id="form-post-submit" type="submit">Submit</button>
+                        <textarea id="form-post-content" name="post-content" placeholder="Post Content"></textarea>
+                        <div>
+                            <label>Choose Image</label>
+                            <input type="file" name="post-image" accept="image/*">
+                        </div>
+                        <button id="form-post-submit" type="button" onclick="submitNewPost()">Submit</button>
                     </form>
                 </div>
             </div>
@@ -37,6 +43,6 @@
                 <p>Made with ❤️ by Nazariy Dumanskyy</p>
             </footer>
         </div>
-        <script src="script.js" async defer></script>
+        <script src="new-post.js" async defer></script>
     </body>
 </html>

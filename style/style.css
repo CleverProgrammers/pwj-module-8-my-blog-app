@@ -5,7 +5,7 @@ body {
 
 header {
     min-height: 350px;
-    background-image: url(assets/banner.jpeg);
+    background-image: url(/assets/banner.jpeg);
     background-size: cover;
     background-position: center;
     color: white;
@@ -75,7 +75,7 @@ header::before {
     height: 100px;
     background-color: white;
     border-radius: 50%;
-    background-image: url(assets/profile.png);
+    background-image: url(/assets/profile.png);
     background-size: cover;
 }
 

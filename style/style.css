@@ -15,6 +15,19 @@ header {
     overflow: hidden;
 }
 
+.post-link {
+    text-decoration: none;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #333;
+    padding: .375rem .75rem;
+    color: #004186;
+    border: 1px solid #004186;
+    border-radius: 5px;
+}
+
 .add-post a {
     color: white;
     text-decoration: none;
@@ -111,9 +124,16 @@ header::before {
     display: flex;
     border: 1px solid #eaecee;
     border-radius: 8px;
-    margin-top: 16px;
+    margin-top: 24px;
     overflow: hidden;
     min-height: 200px;
+    transition: all .25s ease;
+    cursor: pointer;
+}
+
+.post:hover {
+    transform: translate3d(0,-5px,0);
+    box-shadow: 0 2rem 5rem 0 rgba(0,0,0,.1);
 }
 
 .post-image {
@@ -148,6 +168,7 @@ header::before {
 
 .post-text {
     overflow: hidden;
+    max-height: 65px;
 }
 
 .post-text p {

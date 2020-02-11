@@ -1,20 +1,8 @@
-.form-container {
-    width: 650px;
-}
 
 form > * {
     display: block;
     margin-top: 16px;
     font-size: 18px;
-}
-
-.navigation a {
-    text-decoration: none;
-    color: #333;
-    padding: .375rem .75rem;
-    color: #004186;
-    border: 1px solid #004186;
-    border-radius: 5px;
 }
 
 #form-post-title {
@@ -27,7 +15,6 @@ form > * {
     border-radius: 5px;
     color: #495057;
 }
-
 
 #form-post-content {
     width: 100%;

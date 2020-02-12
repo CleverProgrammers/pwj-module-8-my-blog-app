@@ -23,6 +23,7 @@ It needs to follow a class structure like this:
 ## TODO: Add nice hover effect for the blog post
 
 ### HINT: use transform and transition
+### HINT: Hover box shadow `box-shadow: 0 2rem 5rem 0 rgba(0,0,0,.1);`
 
 ## TODO: Add the New Post Button Styling 
 

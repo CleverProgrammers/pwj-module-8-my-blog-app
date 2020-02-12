@@ -62,6 +62,7 @@ It needs to follow a class structure like this:
 ### HINT: Use post.js for getting data from data.json 
 
 ## TODO(Together): Complete index.js to connect to API and get list of posts
+### HINT Make sure to make the statis files public
 
 ## TODO: Complete post.html 
 

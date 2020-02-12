@@ -5,7 +5,6 @@ body {
 
 header {
     min-height: 350px;
-    background-image: url(/assets/banner.jpeg);
     background-size: cover;
     background-position: center;
     color: white;
@@ -13,6 +12,10 @@ header {
     justify-content: center;
     position: relative;
     overflow: hidden;
+}
+
+.home-page header, .new-post-page header  {
+    background-image: url(/assets/banner.jpeg);
 }
 
 .post-link {
@@ -47,7 +50,7 @@ header::before {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-.nav-button.new-post {
+.nav-button.new-post-button {
     position: fixed;
     font-size: 24px;
     z-index: 10;
@@ -64,7 +67,7 @@ header::before {
     transition: all 0.2s ease-in-out;
 }
 
-.nav-button.new-post:hover {
+.nav-button.new-post-buton:hover {
     background-color: #002349;
 }
 
@@ -138,7 +141,6 @@ header::before {
 
 .post-image {
     flex-basis: 40%;
-    background-image: url(https://images.unsplash.com/photo-1581080559107-07f878baefcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80);
     background-size: cover;
     background-position: center;
 }
@@ -177,6 +179,7 @@ header::before {
     color: #495057;
     line-height: 1.4;
     margin: 0;
+    word-break: break-all;
 }
 
 .subtext {

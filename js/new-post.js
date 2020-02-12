@@ -13,6 +13,8 @@ const submitNewPost = () => {
         method: 'POST',
         body: data
     }).then(()=>{
-        window.location.href = "index.html";
+        setTimeout(()=>{
+            window.location.href = "index.html";
+        }, 1000)
     })
 }

@@ -17,7 +17,7 @@ It needs to follow a class structure like this:
 
             class post-text
 
-### HINT: Use Unspash for image to test
+### HINT: Use Unsplash for image to test
 ### HINT: Set the .post-image to have flex-basis: 40%;
 
 ## TODO: Add nice hover effect for the blog post

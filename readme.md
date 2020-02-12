@@ -83,6 +83,8 @@ FormData Payload:
     content: <text>
     post-image: "uploads/post-image-1581375207393.jpg"
 
+## TODO API(Together): Add ability to upload file to API
+
 
 ## TODO: Complete new-post.js to be able to submit new post
 

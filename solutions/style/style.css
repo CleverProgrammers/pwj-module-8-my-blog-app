@@ -78,9 +78,6 @@ header::before {
     justify-content: center;
     align-items: center;
     z-index: 1;
-}
-
-.header-blog-text {
     align-items: center;
     display: flex;
     flex-direction: column;

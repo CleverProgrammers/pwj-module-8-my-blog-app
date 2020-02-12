@@ -1,0 +1,42 @@
+
+form > * {
+    display: block;
+    margin-top: 16px;
+    font-size: 18px;
+}
+
+#form-post-title {
+    width: 300px;
+}
+
+#form-post-title, #form-post-content {
+    border: 1px solid #ced4da;
+    padding: 8px;
+    border-radius: 5px;
+    color: #495057;
+}
+
+#form-post-content {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 300px;
+}
+
+#form-post-submit {
+    background-color: #004186;
+    border-color: #004186;
+    color: white;
+    padding: .375rem .75rem;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+#form-post-submit:hover {
+    background-color: #002349;
+}
+
+
+
+

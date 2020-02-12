@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>New Post</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/new-post.css">
+    </head>
+    <body>
+        <div class="container new-post-page">
+            <header>
+                <div class="header-container">
+                    <div class="header-blog-text">
+                        <div class="title">New Post</div>
+                        <div class="subtext">
+                            Let's add a new blog post!
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="main">
+                <div class="main-container">
+                    <div class="navigation">
+                        <a href="index.html">Back</a>
+                    </div>
+                    <div class="form-container">
+                        <form>
+                            <input id="form-post-title" type="text" name="post-title" placeholder="Post Title"/>
+                            <textarea id="form-post-content" name="post-content" placeholder="Post Content"></textarea>
+                            <div>
+                                <label>Choose Image</label>
+                                <input type="file" name="post-image" accept="image/*">
+                            </div>
+                            <button id="form-post-submit" type="button" onclick="submitNewPost()">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <p>Made with ❤️ by Nazariy Dumanskyy</p>
+            </footer>
+        </div>
+        <script src="js/new-post.js" async defer></script>
+    </body>
+</html>

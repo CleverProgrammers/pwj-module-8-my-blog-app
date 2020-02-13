@@ -92,7 +92,7 @@ It needs to follow a class structure like this:
 ### HINT: add "id" with current date
 ### HINT: add "added_date"
 
-`Endpoint: /api/posts/:post_id Method: POST`
+`Endpoint: /api/posts Method: POST`
 
 FormData Payload:
 

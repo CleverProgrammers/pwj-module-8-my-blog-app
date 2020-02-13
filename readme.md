@@ -82,8 +82,6 @@ It needs to follow a class structure like this:
 ## TODO(Together): Complete index.js to connect to API and get list of posts
 ### HINT Make sure to make the statis files public
 
-## TODO: Complete post.html 
-
 ## TODO: Complete post.js to get data from API and fill in the post.html
 
 ### HINT(Together): Think about how you are going to link from index to post.html

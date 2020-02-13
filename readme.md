@@ -94,7 +94,7 @@ It needs to follow a class structure like this:
 
 `Endpoint: /api/posts Method: POST`
 
-FormData Payload:
+Payload:
 
     title: <text>
     content: <text>

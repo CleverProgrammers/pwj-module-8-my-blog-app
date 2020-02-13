@@ -41,6 +41,20 @@ It needs to follow a class structure like this:
 
 ## TODO: Complete the post.html page
 
+It needs to follow a class structure like this:
+
+    class navigation
+
+        a link
+
+    class post-container
+
+        id individual-post-title
+
+        id individual-post-date
+
+        id individual-post-content
+
 ## TODO API (Together): Set Up a NodeJS Server
 
 ## TODO API: Create an API Endpoint to return list of posts
